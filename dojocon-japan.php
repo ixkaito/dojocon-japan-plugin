@@ -52,7 +52,7 @@ function dojoconjapan_custom_post_types() {
 	);
 
 	$args = array(
-		'labels'                   => $labels,
+		'labels'              => $labels,
 		'hierarchical'        => false,
 		'taxonomies'          => array(),
 		'public'              => true,
