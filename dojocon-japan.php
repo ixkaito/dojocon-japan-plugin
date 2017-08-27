@@ -12,6 +12,17 @@ Text Domain: dojoconjapan
 
 define( 'DOJOCONJAPAN_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
+if ( ! function_exists( 'dojoconjapan_plugin_setup' ) ) {
+/**
+ * Plugin set up
+ */
+function dojoconjapan_plugin_setup() {
+	add_image_size( 'speaker-avatar', 400, 400, true );
+}
+
+}
+add_action( 'after_setup_theme', 'dojoconjapan_plugin_setup' );
+
 /**
  * Register post types
  */
