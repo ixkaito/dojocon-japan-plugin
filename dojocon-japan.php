@@ -78,5 +78,4 @@ function dojoconjapan_custom_post_types() {
 
 	register_post_type( 'speaker', $args );
 }
-
 add_action( 'init', 'dojoconjapan_custom_post_types' );
