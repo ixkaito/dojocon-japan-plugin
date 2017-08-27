@@ -26,14 +26,6 @@ add_action( 'after_setup_theme', 'dojoconjapan_plugin_setup' );
 /**
  * Register post types
  */
-/**
-* Registers a new post type
-* @uses $wp_post_types Inserts new post type object into the list
-*
-* @param string  Post type key, must not exceed 20 characters
-* @param array|string  See optional args description above.
-* @return object|WP_Error the registered post type object, or an error object
-*/
 function dojoconjapan_custom_post_types() {
 
 	$labels = array(
@@ -67,7 +59,10 @@ function dojoconjapan_custom_post_types() {
 		'has_archive'         => true,
 		'query_var'           => true,
 		'can_export'          => true,
-		'rewrite'             => true,
+		'rewrite'             => array(
+			'slug'       => 'speakers',
+			'with_front' => false,
+		),
 		'capability_type'     => 'post',
 		'supports'            => array(
 			'title', 'editor', 'author', 'thumbnail',
