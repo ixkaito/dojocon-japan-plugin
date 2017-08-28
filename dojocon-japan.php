@@ -18,6 +18,8 @@ if ( ! function_exists( 'dojoconjapan_plugin_setup' ) ) {
  */
 function dojoconjapan_plugin_setup() {
 	add_image_size( 'speaker-avatar', 400, 400, true );
+	add_image_size( 'sponsor-logo', 640, 480, true );
+	add_image_size( 'staff-avatar', 200, 200, true );
 }
 
 }
