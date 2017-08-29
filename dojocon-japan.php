@@ -74,5 +74,96 @@ function dojoconjapan_custom_post_types() {
 	);
 
 	register_post_type( 'speaker', $args );
+
+	$labels = array(
+		'name'                => __( 'Main Events', 'dojocon-japan' ),
+		'singular_name'       => __( 'Main Event', 'dojocon-japan' ),
+		'add_new'             => _x( 'Add New Main Event', 'dojocon-japan', 'dojocon-japan' ),
+		'add_new_item'        => __( 'Add New Main Event', 'dojocon-japan' ),
+		'edit_item'           => __( 'Edit Main Event', 'dojocon-japan' ),
+		'new_item'            => __( 'New Main Event', 'dojocon-japan' ),
+		'view_item'           => __( 'View Main Event', 'dojocon-japan' ),
+		'search_items'        => __( 'Search Main Events', 'dojocon-japan' ),
+		'not_found'           => __( 'No Main Events found', 'dojocon-japan' ),
+		'not_found_in_trash'  => __( 'No Main Events found in Trash', 'dojocon-japan' ),
+		'parent_item_colon'   => __( 'Parent Main Event:', 'dojocon-japan' ),
+		'menu_name'           => __( 'Main Events', 'dojocon-japan' ),
+	);
+
+	$args = array(
+		'labels'                   => $labels,
+		'hierarchical'        => false,
+		'taxonomies'          => array(),
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => null,
+		'menu_icon'           => 'dashicons-flag',
+		'show_in_nav_menus'   => true,
+		'publicly_queryable'  => true,
+		'exclude_from_search' => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite'             => array(
+			'slug'       => 'main-events',
+			'with_front' => false,
+		),
+		'capability_type'     => 'post',
+		'supports'            => array(
+			'title', 'editor', 'author', 'thumbnail',
+			'excerpt','custom-fields', 'trackbacks', 'comments',
+			'revisions', 'page-attributes', 'post-formats'
+		),
+	);
+
+	register_post_type( 'main-event', $args );
+
+	$labels = array(
+		'name'                => __( 'Workshops', 'dojocon-japan' ),
+		'singular_name'       => __( 'Workshop', 'dojocon-japan' ),
+		'add_new'             => _x( 'Add New Workshop', 'dojocon-japan', 'dojocon-japan' ),
+		'add_new_item'        => __( 'Add New Workshop', 'dojocon-japan' ),
+		'edit_item'           => __( 'Edit Workshop', 'dojocon-japan' ),
+		'new_item'            => __( 'New Workshop', 'dojocon-japan' ),
+		'view_item'           => __( 'View Workshop', 'dojocon-japan' ),
+		'search_items'        => __( 'Search Workshops', 'dojocon-japan' ),
+		'not_found'           => __( 'No Workshops found', 'dojocon-japan' ),
+		'not_found_in_trash'  => __( 'No Workshops found in Trash', 'dojocon-japan' ),
+		'parent_item_colon'   => __( 'Parent Workshop:', 'dojocon-japan' ),
+		'menu_name'           => __( 'Workshops', 'dojocon-japan' ),
+	);
+
+	$args = array(
+		'labels'                   => $labels,
+		'hierarchical'        => false,
+		'taxonomies'          => array(),
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => null,
+		'menu_icon'           => 'dashicons-hammer',
+		'show_in_nav_menus'   => true,
+		'publicly_queryable'  => true,
+		'exclude_from_search' => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite'             => array(
+			'slug'       => 'workshop',
+			'with_front' => false,
+		),
+		'capability_type'     => 'post',
+		'supports'            => array(
+			'title', 'editor', 'author', 'thumbnail',
+			'excerpt','custom-fields', 'trackbacks', 'comments',
+			'revisions', 'page-attributes', 'post-formats'
+		),
+	);
+
+	register_post_type( 'workshop', $args );
+
 }
 add_action( 'init', 'dojoconjapan_custom_post_types' );
