@@ -17,6 +17,8 @@ if ( ! function_exists( 'dojoconjapan_plugin_setup' ) ) {
  * Plugin set up
  */
 function dojoconjapan_plugin_setup() {
+	load_theme_textdomain( 'dojocon-japan', DOJOCONJAPAN_PLUGIN_DIR . '/languages' );
+
 	add_image_size( 'speaker-avatar', 400, 400, true );
 	add_image_size( 'sponsor-logo', 640, 480, true );
 	add_image_size( 'staff-avatar', 200, 200, true );
@@ -33,14 +35,14 @@ function dojoconjapan_custom_post_types() {
 	$labels = array(
 		'name'                => __( 'Speakers', 'dojocon-japan' ),
 		'singular_name'       => __( 'Speaker', 'dojocon-japan' ),
-		'add_new'             => _x( 'Add New Speaker', 'dojocon-japan', 'dojocon-japan' ),
-		'add_new_item'        => __( 'Add New Speaker', 'dojocon-japan' ),
+		'add_new'             => __( 'Add New', 'dojocon-japan' ),
+		'add_new_item'        => __( 'Add New', 'dojocon-japan' ),
 		'edit_item'           => __( 'Edit Speaker', 'dojocon-japan' ),
 		'new_item'            => __( 'New Speaker', 'dojocon-japan' ),
 		'view_item'           => __( 'View Speaker', 'dojocon-japan' ),
 		'search_items'        => __( 'Search Speakers', 'dojocon-japan' ),
-		'not_found'           => __( 'No Speakers found', 'dojocon-japan' ),
-		'not_found_in_trash'  => __( 'No Speakers found in Trash', 'dojocon-japan' ),
+		'not_found'           => __( 'No Speakers found.', 'dojocon-japan' ),
+		'not_found_in_trash'  => __( 'No Speakers found in Trash.', 'dojocon-japan' ),
 		'parent_item_colon'   => __( 'Parent Speaker:', 'dojocon-japan' ),
 		'menu_name'           => __( 'Speakers', 'dojocon-japan' ),
 	);
@@ -78,14 +80,14 @@ function dojoconjapan_custom_post_types() {
 	$labels = array(
 		'name'                => __( 'Main Events', 'dojocon-japan' ),
 		'singular_name'       => __( 'Main Event', 'dojocon-japan' ),
-		'add_new'             => _x( 'Add New Main Event', 'dojocon-japan', 'dojocon-japan' ),
-		'add_new_item'        => __( 'Add New Main Event', 'dojocon-japan' ),
+		'add_new'             => __( 'Add New', 'dojocon-japan' ),
+		'add_new_item'        => __( 'Add New', 'dojocon-japan' ),
 		'edit_item'           => __( 'Edit Main Event', 'dojocon-japan' ),
 		'new_item'            => __( 'New Main Event', 'dojocon-japan' ),
 		'view_item'           => __( 'View Main Event', 'dojocon-japan' ),
 		'search_items'        => __( 'Search Main Events', 'dojocon-japan' ),
-		'not_found'           => __( 'No Main Events found', 'dojocon-japan' ),
-		'not_found_in_trash'  => __( 'No Main Events found in Trash', 'dojocon-japan' ),
+		'not_found'           => __( 'No Main Events found.', 'dojocon-japan' ),
+		'not_found_in_trash'  => __( 'No Main Events found in Trash.', 'dojocon-japan' ),
 		'parent_item_colon'   => __( 'Parent Main Event:', 'dojocon-japan' ),
 		'menu_name'           => __( 'Main Events', 'dojocon-japan' ),
 	);
@@ -123,14 +125,14 @@ function dojoconjapan_custom_post_types() {
 	$labels = array(
 		'name'                => __( 'Workshops', 'dojocon-japan' ),
 		'singular_name'       => __( 'Workshop', 'dojocon-japan' ),
-		'add_new'             => _x( 'Add New Workshop', 'dojocon-japan', 'dojocon-japan' ),
-		'add_new_item'        => __( 'Add New Workshop', 'dojocon-japan' ),
+		'add_new'             => __( 'Add New', 'dojocon-japan' ),
+		'add_new_item'        => __( 'Add New', 'dojocon-japan' ),
 		'edit_item'           => __( 'Edit Workshop', 'dojocon-japan' ),
 		'new_item'            => __( 'New Workshop', 'dojocon-japan' ),
 		'view_item'           => __( 'View Workshop', 'dojocon-japan' ),
 		'search_items'        => __( 'Search Workshops', 'dojocon-japan' ),
-		'not_found'           => __( 'No Workshops found', 'dojocon-japan' ),
-		'not_found_in_trash'  => __( 'No Workshops found in Trash', 'dojocon-japan' ),
+		'not_found'           => __( 'No Workshops found.', 'dojocon-japan' ),
+		'not_found_in_trash'  => __( 'No Workshops found in Trash.', 'dojocon-japan' ),
 		'parent_item_colon'   => __( 'Parent Workshop:', 'dojocon-japan' ),
 		'menu_name'           => __( 'Workshops', 'dojocon-japan' ),
 	);

@@ -1,0 +1,197 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"DojoCon Japan 1.0.0\n"
+"POT-Creation-Date: "
+"2017-09-07 00:38+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: \n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.0.3\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"node_modules\n"
+
+#: dojocon-japan.php:34
+#: dojocon-japan.php:45
+msgid "Speakers"
+msgstr ""
+
+#: dojocon-japan.php:35
+msgid "Speaker"
+msgstr ""
+
+#: dojocon-japan.php:36
+msgctxt "dojocon-japan"
+msgid "Add New Speaker"
+msgstr ""
+
+#: dojocon-japan.php:37
+msgid "Add New Speaker"
+msgstr ""
+
+#: dojocon-japan.php:38
+msgid "Edit Speaker"
+msgstr ""
+
+#: dojocon-japan.php:39
+msgid "New Speaker"
+msgstr ""
+
+#: dojocon-japan.php:40
+msgid "View Speaker"
+msgstr ""
+
+#: dojocon-japan.php:41
+msgid "Search Speakers"
+msgstr ""
+
+#: dojocon-japan.php:42
+msgid "No Speakers found"
+msgstr ""
+
+#: dojocon-japan.php:43
+msgid ""
+"No Speakers found in "
+"Trash"
+msgstr ""
+
+#: dojocon-japan.php:44
+msgid "Parent Speaker:"
+msgstr ""
+
+#: dojocon-japan.php:79
+#: dojocon-japan.php:90
+msgid "Main Events"
+msgstr ""
+
+#: dojocon-japan.php:80
+msgid "Main Event"
+msgstr ""
+
+#: dojocon-japan.php:81
+msgctxt "dojocon-japan"
+msgid "Add New Main Event"
+msgstr ""
+
+#: dojocon-japan.php:82
+msgid "Add New Main Event"
+msgstr ""
+
+#: dojocon-japan.php:83
+msgid "Edit Main Event"
+msgstr ""
+
+#: dojocon-japan.php:84
+msgid "New Main Event"
+msgstr ""
+
+#: dojocon-japan.php:85
+msgid "View Main Event"
+msgstr ""
+
+#: dojocon-japan.php:86
+msgid "Search Main Events"
+msgstr ""
+
+#: dojocon-japan.php:87
+msgid ""
+"No Main Events found"
+msgstr ""
+
+#: dojocon-japan.php:88
+msgid ""
+"No Main Events found in "
+"Trash"
+msgstr ""
+
+#: dojocon-japan.php:89
+msgid "Parent Main Event:"
+msgstr ""
+
+#: dojocon-japan.php:124
+#: dojocon-japan.php:135
+msgid "Workshops"
+msgstr ""
+
+#: dojocon-japan.php:125
+msgid "Workshop"
+msgstr ""
+
+#: dojocon-japan.php:126
+msgctxt "dojocon-japan"
+msgid "Add New Workshop"
+msgstr ""
+
+#: dojocon-japan.php:127
+msgid "Add New Workshop"
+msgstr ""
+
+#: dojocon-japan.php:128
+msgid "Edit Workshop"
+msgstr ""
+
+#: dojocon-japan.php:129
+msgid "New Workshop"
+msgstr ""
+
+#: dojocon-japan.php:130
+msgid "View Workshop"
+msgstr ""
+
+#: dojocon-japan.php:131
+msgid "Search Workshops"
+msgstr ""
+
+#: dojocon-japan.php:132
+msgid "No Workshops found"
+msgstr ""
+
+#: dojocon-japan.php:133
+msgid ""
+"No Workshops found in "
+"Trash"
+msgstr ""
+
+#: dojocon-japan.php:134
+msgid "Parent Workshop:"
+msgstr ""
