@@ -152,7 +152,7 @@ function dojoconjapan_custom_post_types() {
 		'query_var'           => true,
 		'can_export'          => true,
 		'rewrite'             => array(
-			'slug'       => 'workshop',
+			'slug'       => 'workshops',
 			'with_front' => false,
 		),
 		'capability_type'     => 'post',
