@@ -93,7 +93,7 @@ function dojoconjapan_custom_post_types() {
 	);
 
 	$args = array(
-		'labels'                   => $labels,
+		'labels'              => $labels,
 		'hierarchical'        => false,
 		'taxonomies'          => array(),
 		'public'              => true,
@@ -138,7 +138,7 @@ function dojoconjapan_custom_post_types() {
 	);
 
 	$args = array(
-		'labels'                   => $labels,
+		'labels'              => $labels,
 		'hierarchical'        => false,
 		'taxonomies'          => array(),
 		'public'              => true,
@@ -166,6 +166,51 @@ function dojoconjapan_custom_post_types() {
 	);
 
 	register_post_type( 'workshop', $args );
+
+	$labels = array(
+		'name'                => __( 'Sessions', 'dojocon-japan' ),
+		'singular_name'       => __( 'Session', 'dojocon-japan' ),
+		'add_new'             => __( 'Add New', 'dojocon-japan' ),
+		'add_new_item'        => __( 'Add New', 'dojocon-japan' ),
+		'edit_item'           => __( 'Edit Session', 'dojocon-japan' ),
+		'new_item'            => __( 'New Session', 'dojocon-japan' ),
+		'view_item'           => __( 'View Session', 'dojocon-japan' ),
+		'search_items'        => __( 'Search Sessions', 'dojocon-japan' ),
+		'not_found'           => __( 'No Sessions found.', 'dojocon-japan' ),
+		'not_found_in_trash'  => __( 'No Sessions found in Trash.', 'dojocon-japan' ),
+		'parent_item_colon'   => __( 'Parent Session:', 'dojocon-japan' ),
+		'menu_name'           => __( 'Sessions', 'dojocon-japan' ),
+	);
+
+	$args = array(
+		'labels'              => $labels,
+		'hierarchical'        => false,
+		'taxonomies'          => array(),
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => null,
+		'menu_icon'           => 'dashicons-schedule',
+		'show_in_nav_menus'   => true,
+		'publicly_queryable'  => true,
+		'exclude_from_search' => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite'             => array(
+			'slug'       => 'sessions',
+			'with_front' => false,
+		),
+		'capability_type'     => 'post',
+		'supports'            => array(
+			'title', 'editor', 'author', 'thumbnail',
+			'excerpt','custom-fields', 'trackbacks', 'comments',
+			'revisions', 'page-attributes', 'post-formats'
+		),
+	);
+
+	register_post_type( 'session', $args );
 
 }
 add_action( 'init', 'dojoconjapan_custom_post_types' );
