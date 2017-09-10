@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DojoCon Japan 1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2017-09-07 00:59+0900\n"
+"POT-Creation-Date: 2017-09-10 19:15+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -35,6 +35,7 @@ msgstr "スピーカー"
 
 #: dojocon-japan.php:38 dojocon-japan.php:39 dojocon-japan.php:83
 #: dojocon-japan.php:84 dojocon-japan.php:128 dojocon-japan.php:129
+#: dojocon-japan.php:173 dojocon-japan.php:174
 msgid "Add New"
 msgstr "新規追加"
 
@@ -136,4 +137,40 @@ msgstr "ゴミ箱内にワークショップが見つかりませんでした。
 
 #: dojocon-japan.php:136
 msgid "Parent Workshop:"
+msgstr ""
+
+#: dojocon-japan.php:171 dojocon-japan.php:182
+msgid "Sessions"
+msgstr "セッション"
+
+#: dojocon-japan.php:172
+msgid "Session"
+msgstr "セッション"
+
+#: dojocon-japan.php:175
+msgid "Edit Session"
+msgstr ""
+
+#: dojocon-japan.php:176
+msgid "New Session"
+msgstr ""
+
+#: dojocon-japan.php:177
+msgid "View Session"
+msgstr "セッションを表示"
+
+#: dojocon-japan.php:178
+msgid "Search Sessions"
+msgstr "セッションを検索"
+
+#: dojocon-japan.php:179
+msgid "No Sessions found."
+msgstr "セッションが見つかりませんでした。"
+
+#: dojocon-japan.php:180
+msgid "No Sessions found in Trash."
+msgstr "ゴミ箱内にセッションが見つかりませんでした。"
+
+#: dojocon-japan.php:181
+msgid "Parent Session:"
 msgstr ""
