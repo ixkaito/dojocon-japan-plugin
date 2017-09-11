@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DojoCon Japan 1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2017-09-10 19:15+0900\n"
+"POT-Creation-Date: 2017-09-11 21:21+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -173,4 +173,58 @@ msgstr "ゴミ箱内にセッションが見つかりませんでした。"
 
 #: dojocon-japan.php:181
 msgid "Parent Session:"
+msgstr ""
+
+#: dojocon-japan.php:216
+msgctxt "Taxonomy plural name"
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: dojocon-japan.php:217
+msgctxt "Taxonomy singular name"
+msgid "Category"
+msgstr "カテゴリー"
+
+#: dojocon-japan.php:218
+msgid "Search Categories"
+msgstr "カテゴリーを検索"
+
+#: dojocon-japan.php:219
+msgid "Popular Categories"
+msgstr ""
+
+#: dojocon-japan.php:220
+msgid "All Categories"
+msgstr "カテゴリー一覧"
+
+#: dojocon-japan.php:221 dojocon-japan.php:222
+msgid "Parent Category"
+msgstr "親カテゴリー"
+
+#: dojocon-japan.php:223
+msgid "Edit Category"
+msgstr ""
+
+#: dojocon-japan.php:224
+msgid "Update Category"
+msgstr "カテゴリーを更新"
+
+#: dojocon-japan.php:225
+msgid "Add New Category"
+msgstr "新規カテゴリーを追加"
+
+#: dojocon-japan.php:226
+msgid "New Category Name"
+msgstr ""
+
+#: dojocon-japan.php:227
+msgid "Add or remove Categories"
+msgstr ""
+
+#: dojocon-japan.php:228
+msgid "Choose from most used dojocon-japan"
+msgstr ""
+
+#: dojocon-japan.php:229
+msgid "Category"
 msgstr ""
