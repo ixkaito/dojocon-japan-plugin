@@ -204,7 +204,7 @@ function dojoconjapan_custom_post_types() {
 		),
 		'capability_type'     => 'post',
 		'supports'            => array(
-			'title', 'editor', 'author', 'thumbnail',
+			'title', 'editor', 'author',
 			'excerpt','custom-fields', 'trackbacks', 'comments',
 			'revisions', 'page-attributes', 'post-formats'
 		),
