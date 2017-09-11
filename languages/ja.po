@@ -227,4 +227,4 @@ msgstr ""
 
 #: dojocon-japan.php:229
 msgid "Category"
-msgstr ""
+msgstr "カテゴリー"
