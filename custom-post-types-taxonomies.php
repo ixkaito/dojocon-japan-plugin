@@ -185,20 +185,20 @@ function dojoconjapan_custom_post_types() {
 	register_post_type( 'session', $args );
 
 	$labels = array(
-		'name'					=> _x( 'Categories', 'Taxonomy plural name', 'dojocon-japan' ),
-		'singular_name'			=> _x( 'Category', 'Taxonomy singular name', 'dojocon-japan' ),
-		'search_items'			=> __( 'Search Categories', 'dojocon-japan' ),
-		'popular_items'			=> __( 'Popular Categories', 'dojocon-japan' ),
-		'all_items'				=> __( 'All Categories', 'dojocon-japan' ),
-		'parent_item'			=> __( 'Parent Category', 'dojocon-japan' ),
-		'parent_item_colon'		=> __( 'Parent Category', 'dojocon-japan' ),
-		'edit_item'				=> __( 'Edit Category', 'dojocon-japan' ),
-		'update_item'			=> __( 'Update Category', 'dojocon-japan' ),
-		'add_new_item'			=> __( 'Add New Category', 'dojocon-japan' ),
-		'new_item_name'			=> __( 'New Category Name', 'dojocon-japan' ),
-		'add_or_remove_items'	=> __( 'Add or remove Categories', 'dojocon-japan' ),
-		'choose_from_most_used'	=> __( 'Choose from most used dojocon-japan', 'dojocon-japan' ),
-		'menu_name'				=> __( 'Category', 'dojocon-japan' ),
+		'name'                  => _x( 'Categories', 'Taxonomy plural name', 'dojocon-japan' ),
+		'singular_name'         => _x( 'Category', 'Taxonomy singular name', 'dojocon-japan' ),
+		'search_items'          => __( 'Search Categories', 'dojocon-japan' ),
+		'popular_items'         => __( 'Popular Categories', 'dojocon-japan' ),
+		'all_items'             => __( 'All Categories', 'dojocon-japan' ),
+		'parent_item'           => __( 'Parent Category', 'dojocon-japan' ),
+		'parent_item_colon'     => __( 'Parent Category', 'dojocon-japan' ),
+		'edit_item'             => __( 'Edit Category', 'dojocon-japan' ),
+		'update_item'           => __( 'Update Category', 'dojocon-japan' ),
+		'add_new_item'          => __( 'Add New Category', 'dojocon-japan' ),
+		'new_item_name'         => __( 'New Category Name', 'dojocon-japan' ),
+		'add_or_remove_items'   => __( 'Add or remove Categories', 'dojocon-japan' ),
+		'choose_from_most_used' => __( 'Choose from most used dojocon-japan', 'dojocon-japan' ),
+		'menu_name'             => __( 'Category', 'dojocon-japan' ),
 	);
 
 	$args = array(
