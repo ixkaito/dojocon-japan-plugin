@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DojoCon Japan 1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2017-09-11 21:21+0900\n"
+"POT-Creation-Date: 2017-09-21 07:26+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,214 +17,215 @@ msgstr ""
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
-"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
-"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 2.0.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: dojocon-japan.php:36 dojocon-japan.php:47
+#: custom-post-types-taxonomies.php:8 custom-post-types-taxonomies.php:19
 msgid "Speakers"
 msgstr "スピーカー"
 
-#: dojocon-japan.php:37
+#: custom-post-types-taxonomies.php:9
 msgid "Speaker"
 msgstr "スピーカー"
 
-#: dojocon-japan.php:38 dojocon-japan.php:39 dojocon-japan.php:83
-#: dojocon-japan.php:84 dojocon-japan.php:128 dojocon-japan.php:129
-#: dojocon-japan.php:173 dojocon-japan.php:174
+#: custom-post-types-taxonomies.php:10 custom-post-types-taxonomies.php:11
+#: custom-post-types-taxonomies.php:55 custom-post-types-taxonomies.php:56
+#: custom-post-types-taxonomies.php:100 custom-post-types-taxonomies.php:101
+#: custom-post-types-taxonomies.php:145 custom-post-types-taxonomies.php:146
 msgid "Add New"
 msgstr "新規追加"
 
-#: dojocon-japan.php:40
+#: custom-post-types-taxonomies.php:12
 msgid "Edit Speaker"
-msgstr ""
+msgstr "スピーカーの編集"
 
-#: dojocon-japan.php:41
+#: custom-post-types-taxonomies.php:13
 msgid "New Speaker"
 msgstr ""
 
-#: dojocon-japan.php:42
+#: custom-post-types-taxonomies.php:14
 msgid "View Speaker"
 msgstr "スピーカーを表示"
 
-#: dojocon-japan.php:43
+#: custom-post-types-taxonomies.php:15
 msgid "Search Speakers"
 msgstr "スピーカーを検索"
 
-#: dojocon-japan.php:44
+#: custom-post-types-taxonomies.php:16
 msgid "No Speakers found."
 msgstr "スピーカーが見つかりませんでした。"
 
-#: dojocon-japan.php:45
+#: custom-post-types-taxonomies.php:17
 msgid "No Speakers found in Trash."
 msgstr "ゴミ箱内にスピーカーが見つかりませんでした。"
 
-#: dojocon-japan.php:46
+#: custom-post-types-taxonomies.php:18
 msgid "Parent Speaker:"
 msgstr ""
 
-#: dojocon-japan.php:81 dojocon-japan.php:92
+#: custom-post-types-taxonomies.php:53 custom-post-types-taxonomies.php:64
 msgid "Main Events"
 msgstr "メインイベント"
 
-#: dojocon-japan.php:82
+#: custom-post-types-taxonomies.php:54
 msgid "Main Event"
 msgstr "メインイベント"
 
-#: dojocon-japan.php:85
+#: custom-post-types-taxonomies.php:57
 msgid "Edit Main Event"
-msgstr ""
+msgstr "メインイベントの編集"
 
-#: dojocon-japan.php:86
+#: custom-post-types-taxonomies.php:58
 msgid "New Main Event"
 msgstr ""
 
-#: dojocon-japan.php:87
+#: custom-post-types-taxonomies.php:59
 msgid "View Main Event"
 msgstr "メインイベントを表示"
 
-#: dojocon-japan.php:88
+#: custom-post-types-taxonomies.php:60
 msgid "Search Main Events"
 msgstr "メインイベントを検索"
 
-#: dojocon-japan.php:89
+#: custom-post-types-taxonomies.php:61
 msgid "No Main Events found."
 msgstr "メインイベントが見つかりませんでした。"
 
-#: dojocon-japan.php:90
+#: custom-post-types-taxonomies.php:62
 msgid "No Main Events found in Trash."
 msgstr "ゴミ箱内にメインイベントが見つかりませんでした。"
 
-#: dojocon-japan.php:91
+#: custom-post-types-taxonomies.php:63
 msgid "Parent Main Event:"
 msgstr ""
 
-#: dojocon-japan.php:126 dojocon-japan.php:137
+#: custom-post-types-taxonomies.php:98 custom-post-types-taxonomies.php:109
 msgid "Workshops"
 msgstr "ワークショップ"
 
-#: dojocon-japan.php:127
+#: custom-post-types-taxonomies.php:99
 msgid "Workshop"
 msgstr "ワークショップ"
 
-#: dojocon-japan.php:130
+#: custom-post-types-taxonomies.php:102
 msgid "Edit Workshop"
-msgstr ""
+msgstr "ワークショップの編集"
 
-#: dojocon-japan.php:131
+#: custom-post-types-taxonomies.php:103
 msgid "New Workshop"
 msgstr ""
 
-#: dojocon-japan.php:132
+#: custom-post-types-taxonomies.php:104
 msgid "View Workshop"
 msgstr "ワークショップを表示"
 
-#: dojocon-japan.php:133
+#: custom-post-types-taxonomies.php:105
 msgid "Search Workshops"
 msgstr "ワークショップを検索"
 
-#: dojocon-japan.php:134
+#: custom-post-types-taxonomies.php:106
 msgid "No Workshops found."
 msgstr "ワークショップが見つかりませんでした。"
 
-#: dojocon-japan.php:135
+#: custom-post-types-taxonomies.php:107
 msgid "No Workshops found in Trash."
 msgstr "ゴミ箱内にワークショップが見つかりませんでした。"
 
-#: dojocon-japan.php:136
+#: custom-post-types-taxonomies.php:108
 msgid "Parent Workshop:"
 msgstr ""
 
-#: dojocon-japan.php:171 dojocon-japan.php:182
+#: custom-post-types-taxonomies.php:143 custom-post-types-taxonomies.php:154
 msgid "Sessions"
 msgstr "セッション"
 
-#: dojocon-japan.php:172
+#: custom-post-types-taxonomies.php:144
 msgid "Session"
 msgstr "セッション"
 
-#: dojocon-japan.php:175
+#: custom-post-types-taxonomies.php:147
 msgid "Edit Session"
-msgstr ""
+msgstr "セッションの編集"
 
-#: dojocon-japan.php:176
+#: custom-post-types-taxonomies.php:148
 msgid "New Session"
 msgstr ""
 
-#: dojocon-japan.php:177
+#: custom-post-types-taxonomies.php:149
 msgid "View Session"
 msgstr "セッションを表示"
 
-#: dojocon-japan.php:178
+#: custom-post-types-taxonomies.php:150
 msgid "Search Sessions"
 msgstr "セッションを検索"
 
-#: dojocon-japan.php:179
+#: custom-post-types-taxonomies.php:151
 msgid "No Sessions found."
 msgstr "セッションが見つかりませんでした。"
 
-#: dojocon-japan.php:180
+#: custom-post-types-taxonomies.php:152
 msgid "No Sessions found in Trash."
 msgstr "ゴミ箱内にセッションが見つかりませんでした。"
 
-#: dojocon-japan.php:181
+#: custom-post-types-taxonomies.php:153
 msgid "Parent Session:"
 msgstr ""
 
-#: dojocon-japan.php:216
+#: custom-post-types-taxonomies.php:188
 msgctxt "Taxonomy plural name"
 msgid "Categories"
 msgstr "カテゴリー"
 
-#: dojocon-japan.php:217
+#: custom-post-types-taxonomies.php:189
 msgctxt "Taxonomy singular name"
 msgid "Category"
 msgstr "カテゴリー"
 
-#: dojocon-japan.php:218
+#: custom-post-types-taxonomies.php:190
 msgid "Search Categories"
 msgstr "カテゴリーを検索"
 
-#: dojocon-japan.php:219
+#: custom-post-types-taxonomies.php:191
 msgid "Popular Categories"
 msgstr ""
 
-#: dojocon-japan.php:220
+#: custom-post-types-taxonomies.php:192
 msgid "All Categories"
 msgstr "カテゴリー一覧"
 
-#: dojocon-japan.php:221 dojocon-japan.php:222
+#: custom-post-types-taxonomies.php:193 custom-post-types-taxonomies.php:194
 msgid "Parent Category"
 msgstr "親カテゴリー"
 
-#: dojocon-japan.php:223
+#: custom-post-types-taxonomies.php:195
 msgid "Edit Category"
-msgstr ""
+msgstr "カテゴリーの編集"
 
-#: dojocon-japan.php:224
+#: custom-post-types-taxonomies.php:196
 msgid "Update Category"
 msgstr "カテゴリーを更新"
 
-#: dojocon-japan.php:225
+#: custom-post-types-taxonomies.php:197
 msgid "Add New Category"
 msgstr "新規カテゴリーを追加"
 
-#: dojocon-japan.php:226
+#: custom-post-types-taxonomies.php:198
 msgid "New Category Name"
 msgstr ""
 
-#: dojocon-japan.php:227
+#: custom-post-types-taxonomies.php:199
 msgid "Add or remove Categories"
 msgstr ""
 
-#: dojocon-japan.php:228
+#: custom-post-types-taxonomies.php:200
 msgid "Choose from most used dojocon-japan"
 msgstr ""
 
-#: dojocon-japan.php:229
+#: custom-post-types-taxonomies.php:201
 msgid "Category"
 msgstr "カテゴリー"
