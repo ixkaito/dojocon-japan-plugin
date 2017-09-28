@@ -10,7 +10,7 @@ function dojoconjapan2017_share_link( $atts, $content = null ) {
 	), $atts );
 
 	$url   = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
-	$title = get_the_title();
+	$title = urlencode( wp_title( '', false ) );
 	$html  = '';
 
 	if ( $a['sns'] == 'fb' || $a['sns'] == 'facebook' ) {
