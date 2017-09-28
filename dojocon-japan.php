@@ -14,6 +14,8 @@ define( 'DOJOCONJAPAN_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once DOJOCONJAPAN_PLUGIN_DIR . '/custom-post-types-taxonomies.php';
 
+require_once DOJOCONJAPAN_PLUGIN_DIR . '/shortcodes.php';
+
 if ( ! function_exists( 'dojoconjapan_plugin_setup' ) ) {
 /**
  * Plugin set up
